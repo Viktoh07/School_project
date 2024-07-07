@@ -88,9 +88,10 @@ body{
     margin-top: 60px;
     padding: 0;
     
+    
 }
 .about_header{
-    background-color: #f02603;
+    background-color: #0342f0;
     color: white;
     padding: 50px 20px;
 }
@@ -102,38 +103,12 @@ body{
     font-size: 1.5em;
     margin-bottom: 10px 0 0;
 }
-/*.about_content{
-    padding: 50px 20px;
-    background-color: white;
-    width: 50%;
-}
-.about_content h1{
-    font-size: 1em;
-}
-.about_content h2{
-    font-size: 2em;
-    margin-bottom: 20px;
-}*/
-
-/*.about_content{
-display: flex;
-column-gap: 20px;
-}
-*/.Img_pic{
+/* Breig information section*/
+.Img_pic{
 width: 500px;
-height: 500px;
+height: 900px;
 margin-top: 20%;
 }
-/*.about_detail{
-width: 500px;
-height: 500px;
-background-color: blueviolet;
-}
-.img_section{
-    width: 500px;
-    height: 500px;
-    background-color: chocolate;
-}*/
 .text_section{
     display: flex;
     align-items: center;
@@ -142,23 +117,35 @@ background-color: blueviolet;
 }
 .words{
     width: 70%;
+    height: 80%;
+    padding-top: 5%;
+}
+.words p{
+    padding-top: 10px;
 }
 .left_art h1{
     font-size: 1em;
+    font-weight: 600; /*affects the thickness of the font*/
+    letter-spacing: 0.2em; /*create spaces in-between letters*/
 }
-.col_change{
+.left_art span{
     color: blue;
 }
+.left_art{
+    margin-top: 7.8%;
+    height: 900px;
+}
 
 
 
-/* Introduction section */
+/*Team Introduction section */
 .team_intro{
-    padding: 20%;
+    padding: 50px 200px 75px 200px;
     text-align: center;
+    margin: 0px 50px 0px 50px;
 }
 .team_intro h1{
-    font-size: 1em;
+    font-size: 1em; /* resizes the font */
 }
 .team_intro h2{
 font-size: 3em;
@@ -173,7 +160,13 @@ padding-bottom: 5%;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    padding: 10%;
+    padding: 30px 100px 20px 100px;
+}
+.team_section1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
 }
 .team_section1 h1{
     font-size: 1.2em;
@@ -181,13 +174,19 @@ padding-bottom: 5%;
 .team_section1 h2{
     font-size: 0.8em;
     font-weight: 100;
+    letter-spacing: 0.2em;
 }
 .team_section2{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    padding: 10%;
+    padding: 30px 100px 20px 100px;
+}
+.team_section2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 .team_section2 h1{
     font-size: 1.2em;
@@ -195,12 +194,32 @@ padding-bottom: 5%;
 .team_section2 h2{
     font-size: 0.8em;
     font-weight: 100;
+    letter-spacing: 0.2em;
 }
-.team_section2 p{
-    font-size: 0.9em;
-
+.team_section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 30px 100px 20px 100px;
+    margin: 0px 100px 50px 100px;
 }
-
+.team_section3 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.team_section3 h1{
+    font-size: 1.2em;
+}
+.team_section3 h2{
+    font-size: 0.8em;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+}
+.team_section3 p{
+    margin: 0px 200px 0px 200px;
+}
 /* footer */
 .contact {
     background-color: #f3f4f6;
